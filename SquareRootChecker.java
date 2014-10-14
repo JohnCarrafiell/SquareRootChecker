@@ -6,11 +6,21 @@
 * @version <date you finished the code>
 *
 */
+import java.util.Scanner;
 
 public class SquareRootChecker {
 	
 	public static void main(String[] args) {
-		// TODO - Put your code here
+
+      Scanner scnr = new Scanner(System.in);
+      System.out.println("Input an integer: ");
+      double double1 = scnr.nextDouble();
+      if (double1 > -1){
+      System.out.println(Math.sqrt(double1));
+      } else {
+      System.out.println("Error!");
+      }
+      
 	}
 
 }
