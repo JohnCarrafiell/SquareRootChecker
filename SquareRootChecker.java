@@ -2,8 +2,8 @@
 *
 * Prompts user to enter a value, checks if negative -- if not, prints out the square root
 *
-* @author <your name here>
-* @version <date you finished the code>
+* @author <John Carrafiell>
+* @version <October 14, 2014>
 *
 */
 import java.util.Scanner;
